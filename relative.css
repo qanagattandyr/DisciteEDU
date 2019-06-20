@@ -1,0 +1,27 @@
+@media screen and (max-width: 600px)
+{
+    #background
+    {
+        background-image: url("img/ava_mob.png");
+        background-size: cover;
+    }
+    #ava
+    {
+        display: none;
+    }
+
+    .name
+    {
+        font-size: 30px;
+    }
+    #navbar div
+    {
+        display: none;
+    }
+
+    #ava
+    {
+        width: 20vw;
+        height: 20vw;
+    }
+}
