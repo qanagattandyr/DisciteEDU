@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px)
+@media screen and (orientation: portrait)
 {
     #background
     {
@@ -13,6 +13,10 @@
     .name
     {
         font-size: 30px;
+    }
+    #navbar
+    {
+        min-width: 50px;
     }
     #navbar div
     {
