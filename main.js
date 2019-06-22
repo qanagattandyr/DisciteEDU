@@ -56,5 +56,21 @@ $(document).ready(function()
             cnt0++;
         });
     }
+
+
+    var currentY = 0;
+    $(window).scroll(function () {
+        currentY = $('#background').offset().top;
+        console.log(currentY);
+        if( currentY > 1000)
+        {
+            $("#footer").css("display","block");
+            console.log("down");
+        }
+        else
+        {
+            $("#footer").css("display","none");
+        }
+    });
     
 });

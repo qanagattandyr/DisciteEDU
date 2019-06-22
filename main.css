@@ -4,6 +4,14 @@ body
     margin: 0;
     font-family: 'Raleway', sans-serif;
 }
+a
+{
+    color: #999999;
+}
+a:hover
+{
+    color: #007ACC;
+}
 #background
 {
     width: 85%;
@@ -79,6 +87,9 @@ body
     float: right;
     z-index: 5;
     margin-top: 100vh;
+    margin-bottom: 120px;
+    box-shadow: -2px 0px 10px #007ACC;
+
 }
 .mainheading
 {
@@ -109,4 +120,23 @@ body
 #mob_arr
 {
     display: none;
+}
+#footer
+{
+    display: none;
+    width:85% ;
+    height: 120px;
+    background-color: #252526;
+    z-index: -1;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border-top: #007ACC solid 3px;
+    box-shadow: -2px 0px 10px #007ACC;
+}
+#footer > div
+{
+    color: #999999;
+    text-align: center;
+    margin-top: 4px;
 }
