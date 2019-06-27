@@ -59,10 +59,16 @@ $(document).ready(function()
 
 
     var currentY = 0;
+    var breakpoint = 0;
     $(window).scroll(function () {
         currentY = $('#background').offset().top;
+        breakpoint = $("#education").position().top;
+        var breakpoint1 = $("#scores").position().top
+        var h = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
         console.log(currentY);
-        if( currentY > 1000)
+        $("#background").css("transform","translateY("+(-currentY / 6)+"px)")
+        
+        if(currentY > breakpoint1)
         {
             $("#footer").css("display","block");
             console.log("down");
@@ -71,6 +77,15 @@ $(document).ready(function()
         {
             $("#footer").css("display","none");
         }
+        if(currentY > breakpoint + h)
+        {
+            $("#back1").css("display","block");
+        }
+        else
+        {
+            $("#back1").css("display","none");
+        }
+        
     });
     
 });
