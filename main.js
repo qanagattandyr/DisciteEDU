@@ -37,7 +37,7 @@ $(document).ready(function()
             behavior: 'smooth'});
     });
     var cnt0 = 0;
-    if($("body").width() <= 600)
+    if(window.innerHeight > window.innerWidth)
     {
         console.log($("body").width())
         $("#navbar").click(function()
@@ -63,20 +63,13 @@ $(document).ready(function()
     $(window).scroll(function () {
         currentY = $('#background').offset().top;
         breakpoint = $("#education").position().top;
-        var breakpoint1 = $("#scores").position().top
+        var breakpoint1 = $("#camp").position().top
         var h = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
-        console.log(currentY);
+        // console.log(currentY);
         $("#background").css("transform","translateY("+(-currentY / 6)+"px)")
+        $("#back1").css("transform","translateY("+((-currentY + breakpoint1 -250) / 6)+"px)")
+
         
-        if(currentY > breakpoint1)
-        {
-            $("#footer").css("display","block");
-            console.log("down");
-        }
-        else
-        {
-            $("#footer").css("display","none");
-        }
         if(currentY > breakpoint + h)
         {
             $("#back1").css("display","block");
