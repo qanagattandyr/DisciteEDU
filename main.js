@@ -33,7 +33,7 @@ $(document).ready(function()
     });
     $("#navcontact").click(function()
     {
-        document.querySelector("#contact").scrollIntoView({
+        document.querySelector("#footer").scrollIntoView({
             behavior: 'smooth'});
     });
     var cnt0 = 0;
