@@ -66,11 +66,11 @@ $(document).ready(function()
         var breakpoint1 = $("#camp").position().top
         var h = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
         // console.log(currentY);
-        $("#background").css("transform","translateY("+(-currentY / 6)+"px)")
-        $("#back1").css("transform","translateY("+((-currentY + breakpoint1 -250) / 6)+"px)")
+        $("#background").css("transform","translateY("+(-currentY / 3)+"px)")
+        $("#back1").css("transform","translateY("+((-currentY + breakpoint1 - 420) / 3)+"px)")
 
         
-        if(currentY > breakpoint + h)
+        if(currentY > breakpoint + h - 200)
         {
             $("#back1").css("display","block");
         }
