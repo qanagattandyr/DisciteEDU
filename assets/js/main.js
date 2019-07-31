@@ -16,6 +16,11 @@ $(document).ready(function()
             behavior: 'smooth'
         });
     });
+    $("#background_abt").click(function(){
+        document.querySelector("#about").scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
     $(".cards").hover(function()
     {
         $(this).find(".card_img").css("filter","contrast(1)");
