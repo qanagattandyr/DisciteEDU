@@ -4,95 +4,204 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Bexultan Tokan</title>
-    <link rel="stylesheet" href="main.css">
-    <link rel="icon" href="img/favicon.png" type="img/png">
+    <title>Sun Study</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="relative.css">
+    <link rel="shortcut icon" href="assets/img/icon.png" type="image/x-icon">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/bs/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/relative.css">
 </head>
 <body>
-    <div id = "background">
-        <h4 style = "margin-left: 14%; margin-top: 20vh; margin-bottom: 0; color: #5e5e5e">Hi, I am</h4>
-        <h1 class = "name" style = "margin-left: 14%">Bexultan</h1>
-        <h1 class = "name" style = "color: #007ACC">Tokan</h1>
-        <a href="contact.html"> <h2>link</h2></a>
-        <h4 style = "color: #5e5e5e; margin-left: 14%; margin-top: 0;"> professional lashok</h4>
-    </div>
-    <div id = "navbar">
-        <div id = "ava"></div>
-
-        <div id = "home" class = "navli" style = "margin-top: 20px">
-            <i class="fa fa-home"></i>
-            <p>Home</p>
-        </div>
-        <div id = "navedu" class = "navli">
-            <i class = "fa fa-book"></i>
-            <p>Education</p>
-        </div>
-        <div id = "navawards" class = "navli">
-            <i class = "fa fa-medal"></i>
-            <p>Awards</p>
-        </div>
-        <div id = "navother" class = "navli">
-            <i class = "fa fa-dice"></i>
-            <p>Other experience</p>
-        </div>
-        <div id = "navscores" class = "navli">
-            <i class = "fa fa-clipboard-list"></i>
-            <p>Scores</p>
-        </div>
-        <div id = "navcontact" class = "navli">
-            <i class = "fa fa-phone"></i>
-            <p>Contact me</p>
-        </div>
-
-    </div>
-
-    <div id = "main">
-        <div id = "education" class = "cont">
-            <h1 class = "mainheading">Education and Training Camps</h1>
-            <div>
-                <div class = "education_cont">
-                    <h1>Zerde School</h1>
-                    <p>Top school of the city, specialized in math, selective.</p>
+    
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 col-xs-9 col-lg-3">
+                    <a href="index.html">
+                        <img id="logo" src="assets/img/logo_vert.PNG" class="img-responsive" alt="">
+                    </a>
                 </div>
-                <div class="education_cont">
-                    <h1>Nazarbayev Intellectual School of Physics and Math</h1>
-                    <p>Top 2 of the country, sponsored by the President, selective.</p>
+                <div class="navbar-header">
+                    
+                    <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-menu">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
                 </div>
-                <div class="education_cont">
-                    <h1>National School of Physics and Mathematics</h1>
-                    <p>Top 1 of the country, selective, trains best Olympiad teams</p>
+                <div id="nav-menu" class="navbar-right collapse navbar-collapse text-center">
+                    <ul class="nav navbar-nav">
+                        <li><a id="about_btn">О компании</a></li>
+                        <li><a id="courses_btn">Все курсы</a></li>
+                        <li><a id="contact_btn">Контакты</a></li>
+                        
+                    </ul>
                 </div>
             </div>
+        </div>
+    </nav>
+    <div id="body">
+        <div id="background">
+            <h1 class="text-center">Учебно-подготовительный центр</h1>
+            <hr>
+            <ul class="list-inline list-unstyled text-center">
+                <li><a href="#" class="btn btn-default btn-lg">Подробнее</a></li>
+                <li><a href="#" class="btn btn-warning btn-lg">Записаться</a></li>
+            </ul>
+        </div>    
+        <div id="bg_sm" class="visible-xs">
+                <h1 class="text-center">Учебно-подготовительный центр</h1>
+                <hr>
+                <ul class="list-inline list-unstyled text-center">
+                    <li><a href="#" class="btn btn-default btn-lg">Подробнее</a></li>
+                    <li><a href="#" class="btn btn-warning btn-lg">Записаться</a></li>
+                </ul>
+        </div>
 
-        </div>
-        <img src="img/back1.jpg" id ="back1" alt="">
-        <div class = "cont" id = "awards">
-            <h1 class = "mainheading"> Awards</h1>
-        </div>
-        <div class = "cont" id = "other">
-                <h1 class = "mainheading"> Other experience</h1>
-        </div>
-        <div class = "cont" id = "scores">
-                <h1 class = "mainheading"> Scores</h1>
-        </div>
-        <!-- <div class = "cont" id = "contact">
-                <h1 class = "mainheading"> Contact me</h1>
-        </div> -->
-    </div>
+        <div id="main">
+            <div class="container">
 
-    <div id="footer">
-        <div>Socials: 
-            <a href = "https://vk.com/tokanov2000"><i class = "fab fa-vk"></i></a>
-            <a href="https://www.instagram.com/bekanazavr/?r=nametag"><i class = "fab fa-instagram"></i></a>
+                <div class="row" id="about">
+                    <div class="col-sm-12">
+                        <h2 class="h1 text-center">О нас</h2>
+                        <p>Школа дополнительного образования - <b>Sun Study</b> занимается подготовкой учеников к экзаменам NUFYPET, IELTS, также подготавливает учеников любых классов к школьной физике, математике и англискому языку любого уровня. Также проводятся уроки по веб-разработке, на которых учеников научат создовать сайты с нуля за один месяц. Цель нашей школы - улучшить качество Казахстанского образования и открыть детям новые возможности. </p>
+                    </div>
+                </div>
+                <div class="row" id="courses">
+                    <div class="col-sm-12">
+                        <h2 class="text-center" style="margin: 50px 0 30px 0">Все курсы</h2>
+                    </div>
+                </div>
+                <div class="row" id="course_cards">
+                    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 ">
+                        <div class="cards">
+                            <div class="card_img" id="card_img_1"></div>
+                            <div class="card_cont">
+                                <h3 class="h4 text-center">Веб-разработка</h3>
+                                <ul>
+                                    <li>30 часов</li>
+                                    <li>1 месяц</li>
+                                    <li>1000тг/час</li>
+                                    <li>Макс</li>
+                                </ul>
+                            </div>
+                            <a href="https://forms.gle/bsqSJfv6baCLsjMA8" class="btn btn-warning btn-block">Записаться</a>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 ">
+                        <div class="cards">
+                            <div class="card_img" id="card_img_2"></div>
+                            <div class="card_cont">
+                                <h3 class="h4 text-center">Веб-разработка</h3>
+                                <ul>
+                                    <li>30 часов</li>
+                                    <li>1 месяц</li>
+                                    <li>1000тг/час</li>
+                                    <li>Макс</li>
+                                </ul>
+                            </div>
+                            <a href="https://forms.gle/bsqSJfv6baCLsjMA8" class="btn btn-warning btn-block">Записаться</a>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 ">
+                        <div class="cards">
+                            <div class="card_img" id="card_img_3"></div>
+                            <div class="card_cont">
+                                <h3 class="h4 text-center">Веб-разработка</h3>
+                                <ul>
+                                    <li>30 часов</li>
+                                    <li>1 месяц</li>
+                                    <li>1000тг/час</li>
+                                    <li>Макс</li>
+                                </ul>
+                            </div>
+                            <a href="https://forms.gle/bsqSJfv6baCLsjMA8" class="btn btn-warning btn-block">Записаться</a>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 ">
+                        <div class="cards">
+                            <div class="card_img" id="card_img_4"></div>
+                            <div class="card_cont">
+                                <h3 class="h4 text-center">Веб-разработка</h3>
+                                <ul>
+                                    <li>30 часов</li>
+                                    <li>1 месяц</li>
+                                    <li>1000тг/час</li>
+                                    <li>Макс</li>
+                                </ul>
+                            </div>
+                            <a href="https://forms.gle/bsqSJfv6baCLsjMA8" class="btn btn-warning btn-block">Записаться</a>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 ">
+                        <div class="cards">
+                            <div class="card_img" id="card_img_5"></div>
+                            <div class="card_cont">
+                                <h3 class="h4 text-center">Веб-разработка</h3>
+                                <ul>
+                                    <li>30 часов</li>
+                                    <li>1 месяц</li>
+                                    <li>1000тг/час</li>
+                                    <li>Макс</li>
+                                </ul>
+                            </div>
+                            <a href="https://forms.gle/bsqSJfv6baCLsjMA8" class="btn btn-warning btn-block">Записаться</a>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 ">
+                        <div class="cards">
+                            <div class="card_img" id="card_img_6"></div>
+                            <div class="card_cont">
+                                <h3 class="h4 text-center">Веб-разработка</h3>
+                                <ul>
+                                    <li>30 часов</li>
+                                    <li>1 месяц</li>
+                                    <li>1000тг/час</li>
+                                    <li>Макс</li>
+                                </ul>
+                            </div>
+                            <a href="https://forms.gle/bsqSJfv6baCLsjMA8" class="btn btn-warning btn-block">Записаться</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div>Telephone: +77013399557</div>
-        <div>Email: bexultan.tokan@gmail.com</div>
-        <div>Made with soul by <a href="https://vk.com/minil8">Minilay</a></div>
     </div>
-    <script src = "jquery.js"></script>
-    <script src = "main.js"></script>    
+    <footer>
+            <div class="container">
+                <div class="col-sm-2" id="footer_logo">
+                    <img src="assets/img/logo.PNG" class="img-responsive" alt="">
+                </div>
+                <div class="col-sm-2">
+                    <h5>Школа</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Курсы</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h5>Социалки</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class=""> <i class="fab fa-vk"></i> Мы в ВК</a></li>
+                        <li><a href="https://www.instagram.com/sunstudy.nursultan/"> <i class='fab fa-instagram'></i> Наш Instagram</a></li>
+                        <li><a href="#" class=""> <i class="fab fa-telegram"></i> Telegram</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <address>
+                        <strong>Sun Study</strong> <br> 
+                        <a href="https://2gis.kz/astana/geo/9570784863363476%2C71.455507%2C51.119768?queryState=center%2F71.455147%2C51.119994%2Fzoom%2F16" class="btn btn-link">Калдаякова 1</a> <br>
+                        Гранд Астана Элит <br>
+                        <abbr title="Phone">P:</abbr> 8 (702) 874 7138
+                    </address>
+                </div>
+            </div>
+        </footer>
+
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/bs/js/bootstrap.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 </html>

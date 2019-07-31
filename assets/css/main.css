@@ -1,0 +1,153 @@
+
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #EDEEF0;
+}
+.navbar
+{
+    background-color: black;
+    opacity: 0.8;
+    border: none;
+}
+#nav-menu a, .navbar-brand
+{
+    color: #FDD102 !important;
+    height: 60px;
+    line-height: 60px;
+    padding-top: 0px;
+    font-size: 16px;
+    transition: 0.2s;
+}
+#nav-menu
+{
+    margin-right: 1rem;
+}
+#logo
+{
+    padding: 2px;
+    height: 60px;
+}
+
+#nav-menu a:hover, .navbar-brand:hover
+{
+    text-shadow: 0 0 15px yellow;
+}
+#background
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/back0.jpg");
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+#bg_sm
+{
+    background-color: rgb(235, 233, 233);
+    height: 100vh;
+    padding-top: 200px;
+}
+#background h1
+{
+    padding-top: 20%;   
+    margin: 0;
+    color: whitesmoke;
+}
+#body hr
+{
+    width: 20%;
+}
+#main
+{
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(235, 233, 233);
+    margin-top: 100vh;
+}
+.btn-warning
+{
+    background-color: rgb(230, 187, 0);
+    border: none;
+}
+.btn-default
+{
+    background-color: #EDEEF0;
+    border: none;
+}
+
+.cards
+{
+    height: 300px;
+    transition: 0.4s;
+    background-color: whitesmoke;
+    position: relative;
+}
+.cards:hover
+{
+    box-shadow: 0 0 20px #FDD102;
+}
+.card_img
+{
+    background-image: url("../img/card_img1.png");
+    background-size: cover;
+    height: 120px;
+    filter: contrast(0.5);
+    transition: 0.4s;
+}
+.cards > .img-responsive
+{
+    width: 100%;
+}
+#course_cards > div
+{
+    padding: 10px;
+}
+.cards a
+{
+    border-radius: 0;
+    height: 45px;
+    line-height: 45px;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+}
+
+
+footer
+{
+    background-color: #191919;
+    color: #adadad;
+}
+footer img
+{
+    margin-top: 0;
+}
+footer h5, footer img
+{
+    margin-top: 5em;
+    font-weight: bold;
+}
+
+footer address
+{
+    margin: 5em 0;
+    color: #5a5a5a;
+}
+
+footer ul
+{
+    margin-bottom: 5em;
+}
+
+footer strong
+{
+    color: #adadad;
+}
+
+footer a:hover
+{
+    text-decoration: none;
+    color: #ffffff;
+}

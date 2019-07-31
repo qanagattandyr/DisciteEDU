@@ -1,0 +1,24 @@
+@media screen and (max-width: 768px)
+{
+    #background
+    {
+        display: none;
+    }
+    #main
+    {
+        margin-top: 0;
+        height: 2000px;
+    }
+    .btn-default
+    {
+        background-color: white;
+    }
+    #about h2
+    {
+        border-top: 1px solid gray;
+    }   
+    #footer_logo
+    {
+        display: none;
+    }
+}
