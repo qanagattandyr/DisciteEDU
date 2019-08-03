@@ -28,4 +28,16 @@ $(document).ready(function()
     {
         $(this).find(".card_img").css("filter","contrast(0.5)");
     });
+    var width = window.innerWidth;
+    if(width < 768)
+    {
+        $("#nav-menu ul li").click(function()
+        {
+            $('#nav-menu').removeClass("in");
+
+            $('#nav-menu').css('height','1px');
+        });
+
+        $("footer *").addClass("text-center");
+    }
 });

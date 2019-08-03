@@ -1,17 +1,21 @@
 @media screen and (max-width: 768px)
 {
-    #background
-    {
-        display: none;
-    }
     #main
     {
-        margin-top: 0;
         height: 2000px;
     }
     .btn-default
     {
         background-color: white;
+    }
+    #background
+    {
+        background-image: url("../img/logo_responsive.svg");
+    }
+    #background h1
+    {
+        padding-top: 250px;
+        color: black;
     }
     #about h2
     {
@@ -19,6 +23,7 @@
     }   
     #footer_logo
     {
-        display: none;
+        /* display: none; */
+        margin-right: 1px;
     }
 }
