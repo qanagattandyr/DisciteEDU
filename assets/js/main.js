@@ -1,6 +1,7 @@
 console.log('Hola');
 $(document).ready(function()
 {
+
     $("#courses_btn").click(function(){
         document.querySelector("#courses").scrollIntoView({
             behavior: 'smooth'
@@ -28,6 +29,13 @@ $(document).ready(function()
     {
         $(this).find(".card_img").css("filter","contrast(0.5)");
     });
+    console.log(window.location.pathname);
+    for(var i = 1; i <= 6; i++)
+    {
+        // $("#card_img_"+i).css("background-image","url('./assets/img/card_img"+i+".png');");
+        $("#card_img_"+i).css("background-image","url('./assets/img/card_img"+i+".png')");
+        console.log("assets/img/card_img"+i+".png");
+    }
     var width = window.innerWidth;
     if(width < 768)
     {

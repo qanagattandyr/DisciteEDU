@@ -5,10 +5,15 @@ body
     /* background-color: #EDEEF0; */
     /* color: #337ab7; */
 }
+span.icon-bar
+{
+    background-color: #007ACC !important;
+}
 .navbar
 {
     background-color: white;
     border: none;
+    box-shadow: -2px 0px 10px #007ACC; 
 }
 #nav-menu a, .navbar-brand
 {
@@ -32,7 +37,7 @@ body
 
 #nav-menu a:hover, .navbar-brand:hover
 {
-    text-shadow: 0 0 15px yellow;
+    text-shadow: 0 0 15px blueviolet;
 }
 #background
 {
@@ -68,11 +73,6 @@ body
 {
     padding-top: 30px;
 }
-.btn-warning
-{
-    background-color: rgb(230, 187, 0);
-    border: none;
-}
 .btn-default
 {
     background-color: #EDEEF0;
@@ -92,12 +92,20 @@ body
 }
 .card_img
 {
-    background-image: url("../img/card_img1.png");
+    /* background-image: url("../img/card_img1.png"); */
     background-size: cover;
     height: 120px;
     filter: contrast(0.5);
     transition: 0.4s;
 }
+/* #card_img_1
+{
+    background-image: url("../img/card_img1.png");
+}
+#card_img_2
+{
+    background-image: url("../img/card_img2.jpg");
+} */
 .cards > .img-responsive
 {
     width: 100%;
