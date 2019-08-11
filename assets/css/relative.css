@@ -6,7 +6,17 @@
     }
     #background h1
     {
-        padding-top: 250px;
+        padding-top: 220px;
+        font-size: 35px;
+    }
+    #background h2
+    {
+        font-size: 25px;
+    }
+    #background
+    {
+        background-color: rgb(223, 223, 223);
+        background-image: none;
     }
     #about h2
     {
@@ -56,10 +66,7 @@
     .collapse.in{
         display:block !important;
     }
-    #background
-    {
-        background: linear-gradient(to bottom, #337ab7, white);   
-    }
+    
 }
 
 /* making course window wider on small window */

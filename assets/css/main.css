@@ -14,7 +14,7 @@ p{
 }
 span.icon-bar
 {
-    background-color: #007ACC !important;
+    background-color: white;
 }
 .navbar
 {
@@ -45,7 +45,8 @@ span.icon-bar
 
 #nav-menu a:hover, .navbar-brand:hover
 {
-    text-shadow: 0 0 15px blueviolet;
+    text-shadow: 0 0 15px black;
+    color: black !important;
 }
 #background
 {
