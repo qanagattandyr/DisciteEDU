@@ -20,7 +20,8 @@
 }
 
 /* Make navbar toggle at 990px */
-@media screen and (max-width: 994px) {
+@media screen and (max-width: 994px) 
+{
     .navbar-header {
         float: none;
     }
@@ -54,5 +55,22 @@
     }
     .collapse.in{
         display:block !important;
+    }
+    #background
+    {
+        background: linear-gradient(to bottom, #337ab7, white);   
+    }
+}
+
+/* making course window wider on small window */
+@media screen and (max-width: 768px) 
+{
+    #course_window
+    {
+        width: 100vw;
+        border-radius: 0;
+        height: 100vh;
+        top: 0;
+        left: 0;
     }
 }
