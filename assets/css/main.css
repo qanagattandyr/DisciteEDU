@@ -172,6 +172,22 @@ span.icon-bar
     box-shadow: 0 0 15px #007ACC;
     z-index: 101;
     display: none;
+    padding: 0 !important;
+}
+.cont
+{
+    display: none;
+}
+#course_window .btn-group-justified
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+#course_window .btn-group-justified a
+{
+    border-radius: 0;
+    height: 50px;
 }
 footer
 {
